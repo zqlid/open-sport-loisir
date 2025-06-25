@@ -1,6 +1,7 @@
+cd C:\Users\Mehmeh\Documents\open-sport-loisirs   # ← Va dans ton dossier de site
 git init
 git add .
-git commit -m "Première version du site"
+git commit -m "Mise en ligne du site"
 git branch -M main
-git remote add origin https://github.com/osl/open-sport-loisirs.git
+git remote add origin https://github.com/zqlid/opensportloisirs.git
 git push -u origin main
