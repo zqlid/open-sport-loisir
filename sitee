@@ -2,21 +2,53 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Open Sport Loisirs</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background: #f0f0f0;
-      text-align: center;
-      padding: 50px;
-    }
-    h1 {
-      color: #2c3e50;
-    }
-  </style>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <h1>Bienvenue sur Open Sport Loisirs</h1>
-  <p>Site en construction !</p>
+  <header class="site-header">
+    <div class="logo">Open Sport Loisirs</div>
+    <nav>
+      <ul>
+        <li><a href="#">Accueil</a></li>
+        <li><a href="#">Actualités</a></li>
+        <li><a href="#">Nos actions</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1>Bienvenue chez Open Sport Loisirs</h1>
+      <p>Notre association pour le sport et la convivialité</p>
+    </section>
+
+    <section class="actualites">
+      <h2>Actualités</h2>
+      <article>
+        <h3>Événement sportif à venir</h3>
+        <p>Nous organisons un tournoi de football le 10 juin 2025.</p>
+      </article>
+      <article>
+        <h3>Sortie vélo</h3>
+        <p>Balade prévue le 20 mai 2025, rejoignez-nous !</p>
+      </article>
+    </section>
+
+    <section class="newsletter">
+      <h2>Restez informés</h2>
+      <form>
+        <label for="email">Votre e‑mail :</label>
+        <input type="email" id="email" placeholder="email@example.com">
+        <button type="submit">Je m’abonne</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2025 Open Sport Loisirs — Mentions légales — Contact</p>
+  </footer>
 </body>
 </html>
