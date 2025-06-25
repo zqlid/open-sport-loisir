@@ -2,5 +2,5 @@ git init
 git add .
 git commit -m "Première version du site"
 git branch -M main
-git remote add origin https://github.com/TON-PSEUDO/open-sport-loisirs.git
+git remote add origin https://github.com/osl/open-sport-loisirs.git
 git push -u origin main
